@@ -88,3 +88,11 @@ nav ul li a {
     text-decoration: none;
     border-radius: 8px;
 }
+
+/* フッター */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
