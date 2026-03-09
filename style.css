@@ -128,6 +128,10 @@ footer {
         margin: 10px 0;
     }
 
+    .works-container {
+    grid-template-columns: 1fr;
+    }
+
 }
 
 /* Worksカードレイアウト */
