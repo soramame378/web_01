@@ -106,3 +106,26 @@ footer {
     transform: translateY(-5px);
     transition: 0.3s;
 }
+
+/* スマホ対応 */
+@media (max-width: 768px) {
+
+    section {
+        width: 90%;
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-top: 80px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+}
