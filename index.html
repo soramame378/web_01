@@ -1,93 +1,105 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Site</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Site</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-<nav>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#works">Works</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+    <body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<header>
-    <h1>Web Developer Portfolio</h1>
-        <p>
-        HTML / CSS / JavaScriptを学習しながら  
-        Webサイト制作を行っています。
-        </p>
-    <a href="#works" class="cta-button">View My Works</a>
-</header>
+    <header>
+        <h1>Web Developer Portfolio</h1>
+            <p>
+            HTML / CSS / JavaScriptを学習しながら  
+            Webサイト制作を行っています。
+            </p>
+        <a href="#works" class="cta-button">View My Works</a>
+    </header>
 
-<main>
-    <section id="about" class="about fade-in">
-        <h2>About Me</h2>
-        <p>
-            Web開発を学習中です。HTML、CSS、JavaScriptを使って
-            ポートフォリオサイトを作成しています。
-        </p>
-    </section>
+    <main>
+        <section id="about" class="about fade-in">
+            <h2>About Me</h2>
+            <p>
+                Web開発を学習中です。HTML、CSS、JavaScriptを使って
+                ポートフォリオサイトを作成しています。
+            </p>
+        </section>
 
-    <section id="skills" class="skills fade-in">
-        <h2>Skills</h2>
-        <p>HTML / CSS / JavaScript</p>
-    </section>
+        <section id="skills" class="skills fade-in">
+            <h2>Skills</h2>
+            <p>HTML / CSS / JavaScript</p>
+        </section>
 
-    <section id="works" class="fade-in">
-        <h2>Works</h2>
-        <div class="works-container">
-            
-            <div class="work-item">
-                <img src="images/portfolio.png" alt="Portfolio Site">
-                <h3>Sample Portfolio Site</h3>
-                <p>HTML / CSS / JavaScriptを使用して制作</p>
-                <div class="work-links">
+        <section id="works" class="fade-in">
+            <h2>Works</h2>
+            <div class="works-container">
+                
+                <div class="work-item">
+                    <img src="images/portfolio.png" alt="Portfolio Site">
+                    <h3>Sample Portfolio Site</h3>
+                    <p>HTML / CSS / JavaScriptを使用して制作</p>
+                    <div class="work-links">
 
-                    <a href="https://soramame378.github.io/web_01/" target="_blank">Live Demo</a>
-                    <a href="https://github.com/soramame378/web_01" target="_blank">GitHub</a>
+                        <a href="https://soramame378.github.io/web_01/" target="_blank">Live Demo</a>
+                        <a href="https://github.com/soramame378/web_01" target="_blank">GitHub</a>
 
+                    </div>
                 </div>
+
+                <div class="work-item">
+                    <img src="cafe-lp/images/cafe.jpg" alt="Cafe Landing Page">
+                    <h3>Cafe Landing Page</h3>
+                    <p>HTML / CSSで制作したカフェLP</p>
+                    <div class="work-links">
+                        <a href="cafe-lp/index.html" target="_blank">Cafe Landing Page</a>
+                        <a href="https://github.com/soramame378/web_01/tree/main/cafe-lp" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                    <div class="work-item">
+                        <img src="todo-app/images/to-do.jpg" alt="Todo App">
+                        <h3>Todo App</h3>
+                        <p>HTML / CSS / JavaScriptで制作したTodoアプリ</p>
+                        <div class="work-links">
+                            <a href="todo-app/index.html" target="_blank">Live Demo</a>
+                            <a href="https://github.com/soramame378/web_01/tree/main/todo-app" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="work-item">
-                <img src="cafe-lp/images/cafe.jpg" alt="Cafe Landing Page">
-                <h3>Cafe Landing Page</h3>
-                <p>HTML / CSSで制作したカフェLP</p>
-                <div class="work-links">
-                    <a href="cafe-lp/index.html" target="_blank">Cafe Landing Page</a>
-                </div>
-            </div>
+        </section>
 
-        </div>
+            <section id="contact" class="fade-in">
+            <h2>Contact</h2>
+                <p>お仕事のご相談はこちらからお願いします。</p>
+                <form class="contact-form">
+                <input type="text" placeholder="お名前" required>
+                <input type="email" placeholder="メールアドレス" required>
+                <textarea placeholder="お問い合わせ内容" required></textarea>
+                <button type="submit">送信</button>
+            </form>
 
-    </section>
+        </section>
 
-        <section id="contact" class="fade-in">
-        <h2>Contact</h2>
-            <p>お仕事のご相談はこちらからお願いします。</p>
-            <form class="contact-form">
-            <input type="text" placeholder="お名前" required>
-            <input type="email" placeholder="メールアドレス" required>
-            <textarea placeholder="お問い合わせ内容" required></textarea>
-            <button type="submit">送信</button>
-        </form>
+    </main>
 
-    </section>
+    <footer>
+        <p>© 2026 My Portfolio</p>
+    </footer>
 
-</main>
-
-<footer>
-    <p>© 2026 My Portfolio</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
