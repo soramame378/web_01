@@ -121,6 +121,13 @@ margin-bottom: 10px;
     gap: 20px;
 }
 
+/*画像設定*/
+.work-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 /* スマホ対応 */
 @media (max-width: 768px) {
 
