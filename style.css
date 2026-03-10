@@ -73,12 +73,14 @@ nav ul li a {
 }
 
 /* 作品カード */
-
 .work-item {
+    display: block;
     margin-top: 20px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 15px;
+    text-decoration: none;
+    color: black;
 }
 
 /* ボタン風リンク */
@@ -112,6 +114,7 @@ margin-bottom: 10px;
 .work-item:hover {
     transform: translateY(-5px);
     transition: 0.3s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
 /* Worksカードレイアウト */
@@ -121,12 +124,7 @@ margin-bottom: 10px;
     gap: 20px;
 }
 
-/*画像設定*/
-.work-item img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
+
 
 /* スマホ対応 */
 @media (max-width: 768px) {
