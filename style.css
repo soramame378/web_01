@@ -135,6 +135,27 @@ nav ul li a {
     gap: 20px;
 }
 
+/* Worksリンク */
+.work-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.work-links a {
+    padding: 6px 12px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.work-links a:hover {
+background-color: #444;
+}
+
 /* contactフォーム */
 .contact-form {
     display: flex;
