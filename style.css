@@ -64,6 +64,24 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* CTAボタン */
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #444;
+    transform: translateY(-2px);
+}
+
 /* フェードイン初期状態 */
 .fade-in {
     opacity: 0;                 /* 最初は透明 */
@@ -115,6 +133,41 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
+}
+
+/* contactフォーム */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #444;
 }
 
 /* フッター */
