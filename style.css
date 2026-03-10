@@ -97,7 +97,6 @@ nav ul li a {
 
 /* 作品カード */
 .work-item {
-    display: block;
     margin-top: 20px;
     padding: 20px;
     border: 1px solid #ddd;
