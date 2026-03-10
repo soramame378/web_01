@@ -1,3 +1,8 @@
+/*スクロールのスムーズ化*/
+html {
+    scroll-behavior: smooth;
+}
+
 /*ヘッダーの下を80ピクセル開ける*/
 header {
     padding-top: 80px;
@@ -37,7 +42,7 @@ h2 {
 nav {
     position: fixed;
     width: 100%;
-    background: #222;
+    background-color: rgba(0, 0, 0, 0.5); /* 黒色の半透明背景 */
     padding: 15px 0;
 }
 
@@ -83,31 +88,12 @@ nav ul li a {
     color: black;
 }
 
-/* ボタン風リンク */
-
-.work-item a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 16px;
-    background-color: #222;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-}
-
-/* フッター */
-footer {
-    margin-top: 50px;
-    padding: 20px;
-    background-color: #222;
-    color: white;
-}
-
 /*worksカードの画像*/
 .work-item img {
-width: 100%;
-border-radius: 10px;
-margin-bottom: 10px;
+    aspect-ratio: 16 / 9; /* 横16:縦9 */
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 /*マウスを載せると浮くアニメーション*/
@@ -124,6 +110,13 @@ margin-bottom: 10px;
     gap: 20px;
 }
 
+/* フッター */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
 
 
 /* スマホ対応 */
