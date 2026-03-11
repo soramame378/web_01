@@ -73,3 +73,20 @@ section{
 h2{
     margin-bottom:20px;
 }
+/*メニューのカード情報*/
+.menu-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.menu-card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+.menu-card h3{
+    margin-bottom:10px;
+}
