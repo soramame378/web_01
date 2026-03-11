@@ -9,6 +9,9 @@ body{
 header{
     background:white;
     box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
 nav{
@@ -86,6 +89,12 @@ h2{
     padding:30px;
     border-radius:10px;
     box-shadow:0 5px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
 }
 
 .menu-card h3{
