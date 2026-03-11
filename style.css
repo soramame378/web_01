@@ -155,7 +155,7 @@ nav ul li a {
 background-color: #444;
 }
 
-/* contactフォーム */
+/* contactフォーム
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -188,6 +188,25 @@ background-color: #444;
 
 .contact-form button:hover {
     background-color: #444;
+}
+
+ */
+
+/* Contactボタン */
+
+.contact-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.contact-button:hover {
+    opacity: 0.8;
 }
 
 /* フッター */
