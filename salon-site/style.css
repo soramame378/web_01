@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#fafafa;
+    text-align:center;
+}
+
+/* ナビ */
+header{
+    background:white;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.logo{
+    font-size:24px;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:20px;
+    padding:0;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+/* Hero */
+.hero{
+    height:400px;
+    background:url("images/salon.jpg") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+
+.hero-text{
+    background:rgba(0,0,0,0.4);
+    padding:30px;
+    border-radius:10px;
+}
+
+.cta-button{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px 20px;
+    background:#d6a77a;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+/* section */
+section{
+    padding:60px 20px;
+    max-width:800px;
+    margin:auto;
+}
+
+h2{
+    margin-bottom:20px;
+}
