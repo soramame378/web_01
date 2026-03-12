@@ -1,0 +1,14 @@
+/*flexboxで常に横並び*/
+.box{
+    display:flex;
+    gap:20px; 
+}
+
+/*モバイル対応*/
+@media (max-width:768px){
+
+    .box{
+        flex-direction:column;
+    }
+
+}
