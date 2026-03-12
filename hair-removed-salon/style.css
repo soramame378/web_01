@@ -1,3 +1,84 @@
+/*スクロールのスムーズ化*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*ヘッダーの下を80ピクセル開ける*/
+header {
+    padding-top: 80px;
+}
+
+/* 全体を中央寄せにして、見やすくする基本設定 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa; /* 背景を少し柔らかく */
+    text-align: center;
+}
+
+/* ヘッダー部分 */
+h1 {
+    margin-top: 120px;
+    font-size: 48px;
+    color: #333;
+}
+
+/* ヘッダー部分 */
+h1 {
+    margin-top: 120px;
+    font-size: 48px;
+    color: #333;
+}
+
+/* ポートフォリオセクションデザイン */
+section {
+    background: white;
+    margin: 40px auto;
+    padding: 40px;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* 見出しデザイン */
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* ナビゲーションバー */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(123, 86, 6, 0.514); /* 薄緑の半透明背景 */
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*メニューの並び替え*/
+.menu-inner{
+    display:flex;
+    gap:40px;
+    justify-content:center;
+}
+
 /*中央寄せ*/
 .feature{
     padding:80px 20px;
@@ -31,6 +112,24 @@
     margin-bottom:10px;
 }
 
+/* CTAボタン */
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #444;
+    transform: translateY(-2px);
+}
+
 /*スマホ対応*/
 @media (max-width:768px){
 
@@ -38,4 +137,7 @@
         flex-direction:column;
     }
 
+    .menu-inner{
+        flex-direction:column;
+    }
 }
