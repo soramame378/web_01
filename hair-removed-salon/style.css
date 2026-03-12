@@ -1,0 +1,41 @@
+/*中央寄せ*/
+.feature{
+    padding:80px 20px;
+}
+
+.feature-inner{
+    max-width:1000px;
+    margin:auto;
+}
+
+/* 特徴セクション Flexbox */
+.feature-inner{
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+
+/*画像サイズ*/
+.feature-img img{
+    width:100%;
+    max-width:400px;
+}
+
+/*テキスト装飾*/
+.feature-text h2{
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.feature-text li{
+    margin-bottom:10px;
+}
+
+/*スマホ対応*/
+@media (max-width:768px){
+
+    .feature-inner{
+        flex-direction:column;
+    }
+
+}
